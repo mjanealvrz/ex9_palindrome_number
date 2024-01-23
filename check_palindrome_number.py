@@ -6,8 +6,13 @@
 user_input = int(input("Please enter numbers: "))
 
 # Create funtion to check if the input numbers are palindrome
+def is_palindrome(user_input):
     # In the function, create a if-else statement
+    if user_input == user_input[::-1]:
     # If input number is palindrome return True
+        return True
     # Else, False
+    else: 
+        return False
 
 # Print the result
