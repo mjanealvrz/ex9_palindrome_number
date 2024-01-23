@@ -14,5 +14,12 @@ def is_palindrome(user_input):
     # Else, False
     else: 
         return False
-
+    
 # Print the result
+result = is_palindrome(str(user_input))
+if result:
+    (f"{user_input} is a palindrome.")
+else:
+    (f"{user_input} is not a palindrome.")
+
+
