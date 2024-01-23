@@ -3,7 +3,7 @@
 # Pseudocode
 
 # Ask user to input  numbers
-user_input = int(input("Please enter numbers: "))
+user_input = input("Please enter numbers: ")
 
 # Create funtion to check if the input numbers are palindrome
 def is_palindrome(user_input):
@@ -16,10 +16,10 @@ def is_palindrome(user_input):
         return False
     
 # Print the result
-result = is_palindrome(str(user_input))
+result = is_palindrome(user_input)
 if result:
-    (f"{user_input} is a palindrome.")
+    print(f"Number {user_input} is a palindrome.")
 else:
-    (f"{user_input} is not a palindrome.")
+    print(f"Number {user_input} is not a palindrome.")
 
 
